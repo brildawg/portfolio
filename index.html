@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+        font-family: 'Segoe UI', sans-serif;
+        background: #f8f9fa;
+        margin: 0;
+        padding: 0;
+        }
+        .hero {
+        text-align: center;
+        padding: 100px 20px;
+        background: #fff;
+        }
+        .hero h1 {
+        font-size: 3rem;
+        }
+        .hero h1 span {
+        font-weight: bold;
+        }
+        .hero p {
+        max-width: 600px;
+        margin: 20px auto;
+        color: #6c757d;
+        }
+        .btn-dark {
+        margin-right: 15px;
+        }
+        .section-title {
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        }
+        .stats-box, .skills-box {
+        background: #fff;
+        padding: 30px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        text-align: center;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        }
+        .stats-box i, .skills-box i {
+        font-size: 30px;
+        margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#certifications">Certs</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+    <div class="container">
+        <div class="mb-4">
+    
+        </div>
+        <h1>Mark <span>Abril</span></h1>
+        <h5 class="text-secondary">Digital Forensics and Incident Response</h5>
+        <div class="my-3">
+        <hr style="width: 60px; margin: auto; border: 2px solid black;">
+        </div>
+        <p>
+            I'm <strong>Mark</strong>, a BSIT student with a strong passion for Cybersecurity and Web Development.
+        </p>
+        <div>
+        <a href="#experience" class="btn btn-dark">Explore my work ↓</a>
+        </div>
+    </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="section-title">
+            <h2>About <strong>Me</strong></h2>
+            <hr style="width: 60px; margin: auto; border: 2px solid black;">
+            </div>
+            <p class="text-center text-secondary mt-3 mb-5">
+                Computer enthusiast with knowledge of programming languages, including a fundamental
+                understanding of Linux operating system and web development. A good foundation with basic
+                penetration testing and information gathering. Committed to lifelong learning, keeping up with the
+                most recent developments in technology, and contributing to creative ideas and best practices.  
+            </p>
+
+            <!-- Stats -->
+            <div class="row text-center">
+                <div class="col-md-3 col-6">
+                    <div class="stats-box">
+                    <i class="bi bi-shield-lock-fill" style="color: #007BFF;"></i>
+                    <p class="text-muted small">Blue Teaming</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stats-box">
+                    <i class="bi bi-bug-fill" style="color: #dc3545;"></i>
+                    <p class="text-muted small">Red Teaming</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stats-box">
+                    <i class="bi bi-code-slash" style="color: #198754;"></i>
+                    <p class="text-muted small">Web Development</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stats-box">
+                    <i class="bi bi-search" style="color: #6c757d;"></i>
+                    <p class="text-muted small">OSINT</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stats-box">
+                    <i class="bi bi-people-fill" style="color: #0d6efd;"></i>
+                    <p class="text-muted small">Team Collaboration</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stats-box">
+                    <i class="bi bi-emoji-smile-fill" style="color: #20c997;"></i>
+                    <p class="text-muted small">Calm Under Pressure</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stats-box">
+                    <i class="bi bi-hourglass-split" style="color: #ffc107;"></i>
+                    <p class="text-muted small">Time Management</p>
+                    </div>
+                </div>
+                 <div class="col-md-3 col-6">
+                    <div class="stats-box">
+                    <i class="bi bi-ear" style="color: #6f42c1;"></i>
+                    <p class="text-muted small">Active Listener</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4"><span style="font-weight: 300;"></span> <strong>Experience</strong></h2>
+            <p class="text-muted mb-5">
+            A summary of roles and experience from my professional journey, highlighting key skills and contributions.
+            </p>
+
+            <div class="row">
+            <!-- Experience 1 -->
+                <div class="col-md-6 col-lg-5 mx-auto mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="position-absolute top-0 end-0 m-2 badge bg-dark text-white">Intern</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Digital Forensics and Incident Response</h5>
+                        <p class="card-text"><strong>Black Bear Securities</strong> (Oct. 2024 – March. 2025)</p>
+                        <p class="card-text text-muted">
+                            Throughout my hands-on training, I've gained practical experience in OSINT techniques, diligently working on Cyber Threat Intelligence (CTI) by analyzing threats and compiling comprehensive reports with key findings and actionable recommendations. Additionally, I've performed digital forensic imaging using real-world scenarios to accurately collect and examine crucial digital evidence.
+                        </p>
+                        <!-- <div class="d-flex flex-wrap gap-2 mt-3">
+                            <span class="badge bg-secondary">Autop</span>
+                            <span class="badge bg-secondary">JavaScript</span>
+                            <span class="badge bg-secondary">CSS</span>
+                        </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-5 mx-auto mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="position-absolute top-0 end-0 m-2 badge bg-dark text-white">Project</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Capstone Project: CareerLinkNEU Website</h5>
+                        <p class="card-text"><strong>New Era University</strong> (March. 2024 – March. 2025)</p>
+                        <p class="card-text text-muted">
+                            Designed and developed a web application that connects students and alumni to career
+                            opportunities posted by partner companies within our university. The system also includes a
+                            tracer feature to track the career progress of alumni and current students.
+                        </p>
+                        <!-- <div class="d-flex flex-wrap gap-2 mt-3">
+                            <span class="badge bg-secondary">Autop</span>
+                            <span class="badge bg-secondary">JavaScript</span>
+                            <span class="badge bg-secondary">CSS</span>
+                        </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-5 mx-auto mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="position-absolute top-0 end-0 m-2 badge bg-dark text-white">Activity</div>
+                        <div class="card-body">
+                        <h5 class="card-title">PWNEU CTF</h5>
+                        <p class="card-text"><strong>New Era University</strong> (March. 2025)</p>
+                        <p class="card-text text-muted">
+                            Participated in the university’s Capture The Flag (CTF) event, PWNEU.
+                        </p>
+                        <!-- <div class="d-flex flex-wrap gap-2 mt-3">
+                            <span class="badge bg-secondary">Autop</span>
+                            <span class="badge bg-secondary">JavaScript</span>
+                            <span class="badge bg-secondary">CSS</span>
+                        </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-5 mx-auto mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="position-absolute top-0 end-0 m-2 badge bg-dark text-white">Seminar</div>
+                        <div class="card-body">
+                        <h5 class="card-title">Attended SANS Community Night</h5>
+                        <p class="card-text"><strong>New Era University</strong> (Feb. 2025)</p>
+                        <p class="card-text text-muted">
+                            Gained insights into current cybersecurity trends and best practices shared by professionals
+                            in the field.
+                        </p>
+                        <!-- <div class="d-flex flex-wrap gap-2 mt-3">
+                            <span class="badge bg-secondary">Autop</span>
+                            <span class="badge bg-secondary">JavaScript</span>
+                            <span class="badge bg-secondary">CSS</span>
+                        </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4"><span style="font-weight: 300;"></span> <strong>Certifications</strong></h2>
+            <p class="text-muted mb-5">
+                A collection of certifications that showcase my skills and knowledge in various areas of technology and cybersecurity.
+            </p>
+
+            <div class="row">
+            <!-- Gallery Item 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                <img src="images/Udemy Linux pro.jpg" class="card-img-top" alt="Event 1">
+                <div class="position-absolute top-0 start-0 m-2 badge bg-dark text-white"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Udemy:</h5>
+                    <p class="card-text text-muted">The Complete Guide to Becoming a Linux Pro</p>
+                </div>
+                </div>
+            </div>
+
+            <!-- Gallery Item 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                <img src="images/Cicso.jpg" class="card-img-top" alt="Event 1">
+                <div class="position-absolute top-0 start-0 m-2 badge bg-dark text-white"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Cisco :</h5>
+                    <p class="card-text text-muted">Introduction to Cybersecurity</p>
+                </div>
+                </div>
+            </div>
+
+            <!-- Gallery Item 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                <img src="images/PWNEUCTF.png" class="card-img-top" alt="Event 1">
+                <div class="position-absolute top-0 start-0 m-2 badge bg-dark text-white"></div>
+                <div class="card-body">
+                    <h5 class="card-title">PWNEUCTF :</h5>
+                    <p class="card-text text-muted">University CTF</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                <img src="images/WIndows Endpoint Security.jpg" class="card-img-top" alt="Event 1">
+                <div class="position-absolute top-0 start-0 m-2 badge bg-dark text-white"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Udemy :</h5>
+                    <p class="card-text text-muted">Windows EndpointSecurity</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                <img src="images/SoloLearn_Java.png" class="card-img-top" alt="Event 1">
+                <div class="position-absolute top-0 start-0 m-2 badge bg-dark text-white"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Sololearn :</h5>
+                    <p class="card-text text-muted">Theoretical and practical understanding of Java</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                <img src="images/FreeCodeCamp_WebDesign.jpg" class="card-img-top" alt="Event 1">
+                <div class="position-absolute top-0 start-0 m-2 badge bg-dark text-white"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Free Code Camp :</h5>
+                    <p class="card-text text-muted">Responsive Web Design</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+            <h2><strong>Contact</strong> Me</h2>
+            <p class="text-muted">Let’s connect! Reach out through any of the platforms below.</p>
+            </div>
+
+            <div class="row justify-content-center"> 
+            <div class="col-md-6 text-center">
+                <div class="bg-light p-4 rounded shadow-sm">
+                <p><strong>Email:</strong> markjohnabril23@gmail.com</p>
+                <p><strong>Location:</strong> Central Luzon,  Philippines</p>
+
+                <div class="d-flex justify-content-center mt-3 gap-3">
+                    <a href="https://github.com/brildawg" target="_blank" class="btn btn-outline-dark">
+                    <i class="bi bi-github"></i> GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/mark-john-abril-0a0712275/" target="_blank" class="btn btn-outline-primary">
+                    <i class="bi bi-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="mailto:markjohnabril23@gmail.com" class="btn btn-outline-danger">
+                    <i class="bi bi-envelope"></i> Email
+                    </a>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</body>
+</html>
